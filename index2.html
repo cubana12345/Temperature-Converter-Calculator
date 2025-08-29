@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+</head>
+<body>
+
+  <h1>Temperature Converter/Calculator</h1>
+
+  <!-- Input for temperature -->
+  <label>Enter Temperature:</label>
+  <input type="number" id="temperature">
+
+  <br><br>
+
+  <!-- Choose conversion type -->
+  <label>Convert to:</label>
+  <select id="conversion">
+    <option value="toFahrenheit">Fahrenheit</option>
+    <option value="toCelsius">Celsius</option>
+  </select>
+
+  <br><br>
+
+  <!-- Button to start conversion -->
+  <button onclick="convertTemperature()">Convert</button>
+
+  <h2 id="result"></h2>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+
+</body>
+</html>
